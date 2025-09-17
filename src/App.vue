@@ -1,9 +1,6 @@
 <template>
   <div id="app">
-    <!-- Menú fijo -->
     <Menu />
-
-    <!-- Contenido principal -->
     <div class="content">
       <img alt="Vue logo" src="./assets/logo.png">
       <h1>Bienvenido a Vue.js</h1>
