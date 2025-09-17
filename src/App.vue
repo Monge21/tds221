@@ -1,20 +1,22 @@
 <template>
   <div id="app">
     <Menu />
-    <div class="content">
-      <img alt="Vue logo" src="./assets/logo.png">
-      <h1>Bienvenido a Vue.js</h1>
-    </div>
+    <cuerpo></cuerpo>
+    <Footer />
   </div>
 </template>
 
 <script>
+import Cuerpo from './components/Cuerpo.vue'
+import Footer from './components/Footer.vue'
 import Menu from './components/Menu.vue'
 
 export default {
   name: 'App',
   components: {
-    Menu
+    Menu,
+    Cuerpo,
+    Footer,
   }
 }
 </script>
