@@ -11,8 +11,6 @@
             {{ item.name }}
             <span v-if="item.children" class="caret">▼</span>
           </a>
-
-          <!-- Dropdown -->
           <ul v-if="item.children && item.show" class="dropdown-menu">
             <li v-for="child in item.children" :key="child.id" class="menu-item">
               <a :href="child.link || '#'">{{ child.name }}</a>
